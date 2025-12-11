@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stan {
+    font-family: myfont;
+    color: ivory;
+    font-size: larger;
+}
+
+@font-face {
+    font-family: myFont; /* set name */
+    src: url(Eat\ Me\ Alive.ttf); /* Eat Me Alive.ttf */ 
+}
+
+
+p {
+    color: ivory;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: ivory;
+    border-style: groove;
+    border-color: yellow;
+}

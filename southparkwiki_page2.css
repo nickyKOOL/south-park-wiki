@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.characters {
+    font-family: myfont;
+    color: ivory;
+    font-size: larger;
+}
+
+.intro {
+    font-family: 'Times New Roman', Times, serif;
+    color: ivory;
+}
+
+
+@font-face {
+    font-family: myFont; /* set name */
+    src: url(Eat\ Me\ Alive.ttf); /* Eat Me Alive.ttf */ 
+}
+
+
+
+button {
+    background-color: ivory;
+    border: 2px solid lightgreen;
+    border-radius: 12px;
+    padding: 5px;
+}
